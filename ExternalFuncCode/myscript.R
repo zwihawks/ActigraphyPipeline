@@ -1,4 +1,4 @@
-# update to local path to verisense_count_steps.R file
+# update local path to verisense_count_steps.R file
 # Files from GitHub, algorithm based on Gu et al. (2017)
 # https://github.com/ShimmerEngineering/Verisense-Toolbox/tree/master/Verisense_step_algorithm 
 source("ExternalFuncCode/verisense_count_steps.R") 
