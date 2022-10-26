@@ -6,9 +6,9 @@ Repository contains code to process GeneActiv actigraphy data and merge output w
 1. PrePostProcessingDemo.R: Run pipeline      
 2. ExternalFuncCode: Folder containing functions required to run pipeline  
    a. wrangle_sleep.R: create sleep log from EMA data  
-   b. actigraph_preFunc.R: perform actigraphy pre-processing on raw bin file + EMA sleep log
-   c. actigraph_postP.R: perform actigraphy post-processing
-   d. parse_activity.R: create log with step and/or activity data linked to EMA sitting ID
+   b. actigraph_preFunc.R: perform actigraphy pre-processing on raw bin file + EMA sleep log  
+   c. actigraph_postP.R: perform actigraphy post-processing  
+   d. parse_activity.R: create log with step and/or activity data linked to EMA sitting ID  
    e. verisense_count_steps.R & myscript.R: compute step counts (called in Actigraphy_preFunc.R)  
 
 **Additional notes:**  
