@@ -16,3 +16,4 @@ Repository contains code to process GeneActiv actigraphy data and merge output w
 1. Sleep and activity metrics derived using GGIR (Migueles JH, Rowlands AV, et al., 2019)  
 2. Step counts estimated using open source code (Matthew Patterson, Verisense)  
 3. Informal validity checks on step count estimates performed by computing MAPE relative to commerically available wearables (Apple Watch, Garmin Forerunner)  
+4. Paths to local directories intentionally omitted (e.g., path <- "")
