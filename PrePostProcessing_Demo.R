@@ -11,9 +11,7 @@
 # Load libraries & define function inputs
 # -----------------------------
 
-# for windows computer:
-#path <- ""
-path <- ""
+path <- "" # path to directory containing current script & ExternalFuncCode folder
 pat_ID <- 6 # participant ID
 TMB_file <- T # do we have EMA data from TMB? (T for participants, F for some internal testing)
 
