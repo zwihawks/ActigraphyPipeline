@@ -3,9 +3,6 @@
 # https://github.com/ShimmerEngineering/Verisense-Toolbox/tree/master/Verisense_step_algorithm 
 source("ExternalFuncCode/verisense_count_steps.R") 
 
-# for windows laptop (after setting working directory to GGIR/)
-# source("ExternalFuncCode/verisense_count_steps.R") 
-
 vcs_fun =  list(FUN=verisense_count_steps,
               parameters= c(3, 4, 15, -5.0, 3, 4, 0.001, 1.2,
                             3, 5, 15, -0.5, 3, 4, 0.001, 1.2),
