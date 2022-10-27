@@ -31,10 +31,6 @@ if (TMB_file) {
                                   pattern = "studies.*.csv$", full.names = TRUE))
 }
 
-# To check if sleep log was entered wrong (AM/PM)
-source("")
-morning <- deJSON.outcomes_freetext(EMA_data[EMA_data$test_name == "EMA Morning Survey",], "data") %>% select(user_id, start_time, go_to_sleep_time, wake_up_time)
-
 # -----------------------------
 # Main loop
 # -----------------------------
