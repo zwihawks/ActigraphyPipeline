@@ -4,7 +4,7 @@ Repository contains code to process GeneActiv actigraphy data and merge output w
 **Description of folders & files:**  
 
 1. PrePostProcessingDemo.R: Run pipeline      
-2. ExternalFuncCode: Folder containing pipeline dependencies  
+2. ExternalFuncCode: Contains pipeline dependencies  
    a. wrangle_sleep.R: create sleep log from EMA data  
    b. actigraph_preFunc.R: perform actigraphy pre-processing on raw bin file + EMA sleep log  
    c. actigraph_postP.R: perform actigraphy post-processing  
